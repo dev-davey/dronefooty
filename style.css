@@ -1,0 +1,120 @@
+/*top bar*/
+body{
+  font-family: 'Bebas Neue', cursive;
+  color: #1b1e23;
+  
+}
+
+
+.top-bar{
+    height: 2.3rem;
+    background-color: #0F8E97;
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar a{
+    color: white;
+    letter-spacing: 1px;
+}
+
+/*nav bar*/
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+  }
+  .nav-item{
+    padding: .5rem;
+  }
+  
+  .nav-link {
+    color: #5b5555!important;
+  }
+  
+  .nav-link.active, .nav-link:hover{
+    color: #0F8E97!important;
+  }
+
+  .navbar-brand img{
+      height: 4rem;
+  }
+
+  .carousel-item {
+    height: 580px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 580px;
+  }
+
+  .carousel-caption{
+    color: white;
+    text-shadow: 2px 2px #5b5555;
+  }
+
+  .mid-img{
+    height: 400px;
+  }
+
+  .btn-info{
+      width: 10rem;
+      align-content: center;
+      letter-spacing: 2px;
+  }
+
+  .form-control{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .contact-text{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #5b5555;
+  }
+
+  .icons{
+    font-size: 2.5rem;
+    color: #0F8E97;
+  }
+
+  footer ul{
+    text-decoration: none;
+  }
+
+  footer a{
+    color: #0F8E97;
+  }
+
+  footer h5{
+    color: white;
+    text-shadow: 2px 2px #5b5555;
+  }
+
+  margin-img{
+    margin: 75% 0;
+  }
+
+  .parallax{
+    background: url("./drone-photos/zihuabeach3.png") repeat fixed 100%;
+  }
+
+  .parallax-inner{
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  .fix-caption{
+    text-align: center;
+    font-size: 500%;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 2px 2px #5b5555;
+  }
