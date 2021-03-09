@@ -1,9 +1,11 @@
 /*top bar*/
 body{
   font-family: 'Bebas Neue', cursive;
-  color: #1b1e23;
+  color: #131212;
   
 }
+
+p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px}
 
 
 .top-bar{
@@ -77,6 +79,27 @@ body{
     color: #5b5555;
   }
 
+  .service-section{
+    background-color: #f1f1f1;
+  }
+
+  .service-icons{
+    color: #0F8E97;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .stacked-img{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .left-img{
+    width: 100%;
+    height: 476px;
+    padding: 5px;
+  }
+
   .icons{
     font-size: 2.5rem;
     color: #0F8E97;
@@ -97,6 +120,7 @@ body{
 
   margin-img{
     margin: 75% 0;
+    height: 90vh;
   }
 
   .parallax{
@@ -110,14 +134,51 @@ body{
 
   .fix-caption{
     text-align: center;
-    font-size: 500%;
+    font-size: 3rem;
     letter-spacing: 3px;
     color: #fff;
     text-shadow: 3px 3px #5b5555;
   }
 
   .video-text{
-    display: block;
-    width: 70%;
-    margin-left: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding-left: ;
+    letter-spacing: 1px;
+  }
+
+  /*serivices page*/
+
+  .jumbotron{
+    background-image: url('./drone-photos/lasaladita5-wider-hd.png');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    border-radius: 0px!important;
+  }
+
+  .jumbotron h1{
+    margin: 5px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-shadow: 3px 3px #5b5555;
+  }
+
+  .jumbotron p{
+    color: white;
+    text-shadow: 2px 2px #5b5555;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .jumbotron img{
+    height: 14rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);  
+  }
+
+  .col-img img{
+    height: 400px;
+    width: 100%;
   }
