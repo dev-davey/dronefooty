@@ -2,11 +2,10 @@
 body{
   font-family: 'Bebas Neue', cursive;
   color: #131212;
-  
 }
 
-p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px}
-
+p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px;
+}
 
 .top-bar{
     height: 1.6rem;
@@ -53,7 +52,7 @@ p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
       object-fit:cover;
       top: 0;
       left: 0;
-      min-height: 600px;
+      min-height: 100%;
   }
 
   .carousel-caption{
@@ -131,6 +130,9 @@ p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
 
   .parallax{
     background: url("./drone-photos/zihuabeach3.png") repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
 
   .parallax-inner{
@@ -151,7 +153,6 @@ p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     justify-content: center;
     align-items: center;
     display: inline-block;
-    padding-left: ;
     letter-spacing: 1px;
   }
 
@@ -172,6 +173,14 @@ p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     line-height: 1.5;
     text-shadow: 3px 3px #5b5555;
   }
+
+  .jumbotron-top h5{
+    margin: 5px;
+    font-size: 20px;
+    line-height: 1;
+    text-shadow: 3px 3px #5b5555;
+  }
+  
 
   .jumbotron-top p{
     color: white;
