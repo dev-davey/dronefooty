@@ -11,8 +11,9 @@
             $subject = "message from site";
             $body = "";
             $body .= "From: ".$userName. "\r\n";
+            $body .= "Last: ".$lastName. "\r\n";
             $body .= "Email: ".$userEmail. "\r\n";
-            $body .= "Message: ".$message. "\r\n";
+            $body .= "Message: ".$userMessage. "\r\n";
             mail($to,$subject,$body);
 
             $message_sent = true;
