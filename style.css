@@ -140,6 +140,12 @@ p { color: #131212; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; 
     padding-bottom: 25%;
   }
 
+  @media screen and (max-width: 600px) {
+    .fixed-img {
+      display: none;
+    }
+  }
+
   .fix-caption{
     text-align: center;
     font-size: 3rem;
